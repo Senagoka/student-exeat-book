@@ -7,7 +7,7 @@ function Students() {
   return (
     <div className="sena">
       {students.map((student) => (
-        <div >
+        <div className="card">
           <div className="cat">
             <h2>{student.name}</h2>
             <h2>{student.level}</h2>
@@ -15,6 +15,9 @@ function Students() {
           </div>
 
           <button
+            style={{
+              background: "red",
+            }}
             onClick={() =>
               dispatch({ type: "delete", indexNo: student.indexNo })
             }
