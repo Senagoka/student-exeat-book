@@ -43,7 +43,8 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card {
-  background-color: #dedede;
+  background-color: #bbb6b6;
+  border: 1px solid white;
   margin: 10px;
 }
 
