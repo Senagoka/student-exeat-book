@@ -7,7 +7,7 @@
   border: hotpink;
 }
 body {
-  background-color: #9c1de7;
+  background-color: rgb(173, 169, 169);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,31 +23,46 @@ body {
 
 form {
   align-items: center;
-  border: 1px solid white;
+  border: 1px solid rgb(7, 7, 7);
   padding: 40px;
   display: grid;
   grid-gap: 25px;
 }
+button:hover {
+  background-color: blue;
+}
 
 input,
 button {
+  color: black;
   padding: 10px 7px;
 }
 
-button {
-  background-color: blue;
+.bord {
+  background-color: green;
+  color: black;
+  width: 25%;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+
   color: white;
-  border-radius: 5px 9px;
+  border-radius: 20px 20px 20px 20px;
 }
+
 .sena {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card {
-  background-color: #f8f4f4;
+  background-color: rgb(197, 196, 196);
+  opacity: 0.5;
   border: 1px solid rgb(14, 13, 13);
   margin: 10px;
-  box-shadow:  8px 20px 10px rgb(28, 63, 109);
+  box-shadow: 5px 17px 18px grey;
+}
+.card:hover {
+  background-color: rgb(236, 232, 240);
 }
 
 footer {
@@ -57,5 +72,6 @@ footer {
 }
 
 h1 {
-  color: white;
+  font-size: xx-large;
+  color: black;
 }

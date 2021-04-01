@@ -16,7 +16,7 @@ function Students() {
 
           <button
             style={{
-              background: "red",
+              background: "red", borderRadius: "20px 20px 20px 20px" 
             }}
             onClick={() =>
               dispatch({ type: "delete", indexNo: student.indexNo })

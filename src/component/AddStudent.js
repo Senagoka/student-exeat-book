@@ -34,7 +34,7 @@ function AddStudent() {
         placeholder="index number"
         onChange={(e) => setIndexNo(e.target.value)}
       />
-      <button>ADD</button>
+      <button className="bord">ADD</button>
     </form>
   );
 }
